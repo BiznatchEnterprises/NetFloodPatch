@@ -9,6 +9,7 @@ Edit net.cpp
 Search for: SocketSendData(
 
 ====================================
+
 CHANGE:
 
 	const CSerializeData &data = *it;
@@ -16,6 +17,7 @@ CHANGE:
 	assert(data.size() > pnode->nSendOffset);
 
 ======================================
+
 TO:
     
     const CSerializeData &data = *it;
